@@ -1,4 +1,3 @@
-from typing import Union
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -6,9 +5,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from astropy.table import Table
-import flask
-from joblib import dump, load
-import os
+from joblib import load
 import base64
  
 st.title('VVVx Classification')
