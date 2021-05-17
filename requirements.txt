@@ -6,3 +6,4 @@ numpy
 astropy
 joblib
 scikit-learn
+plotly
